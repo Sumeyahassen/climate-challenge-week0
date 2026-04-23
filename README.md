@@ -1,12 +1,22 @@
-# climate-challenge-week0
-python3 -m venv venv//venv install
-sourse "venv/bin/activate"//activate the venv
-# TASK 1 (git and github setape)
-# 1. Create the branch
-git checkout -b setup-task
-# 2. Create .github/workflows/ci.yml
-mkdir -p .github/workflows
-# 3. Add your files, commit, push
-git add .
-git commit -m "init: setup venv and requirements"
-git push origin task-1
+# Climate Challenge Week 0 - African Climate Trend Analysis
+
+## Setup
+1. Create virtual environment: `python3 -m venv venv`
+2. Activate: `source venv/bin/activate` (Linux/Mac) or `venv\Scripts\activate` (Windows)
+3. Install: `pip install -r requirements.txt`
+
+## Project Structure
+- `data/` - CSV files (gitignored)
+- `notebooks/` - EDA notebooks per country
+- `src/` - Python modules
+- `scripts/` - Utility scripts
+- `tests/` - Unit tests
+
+## Tasks Completed
+- [x] Environment setup
+- [x] Git repository initialized
+- [x] CI/CD workflow configured
+- [ ] Data cleaning (in progress)
+- [ ] EDA for 5 countries
+- [ ] Cross-country comparison
+- [ ] Streamlit dashboard (bonus)
