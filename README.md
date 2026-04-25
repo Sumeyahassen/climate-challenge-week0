@@ -16,7 +16,3 @@
 - [x] Environment setup
 - [x] Git repository initialized
 - [x] CI/CD workflow configured
-- [ ] Data cleaning (in progress)
-- [ ] EDA for 5 countries
-- [ ] Cross-country comparison
-- [ ] Streamlit dashboard (bonus)
