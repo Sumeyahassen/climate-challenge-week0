@@ -16,7 +16,3 @@
 - [x] Environment setup
 - [x] Git repository initialized
 - [x] CI/CD workflow configured
-<<<<<<< HEAD
-=======
-
->>>>>>> eda-ethiopia
