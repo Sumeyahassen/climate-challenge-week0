@@ -42,15 +42,16 @@ The objective is to provide **evidence-backed climate insights** to support **Et
 ---
 
 ## 📂 Folder Structure
-
 ```plaintext
-├── .github/workflows/      # GitHub Actions CI/CD workflows
-├── data/                   # Raw and cleaned datasets (ignored by Git)
-├── notebooks/              # Jupyter notebooks for country analysis
-├── src/                    # Modular Python scripts
+├── app/                    # Dashboard Application
+│   ├── main.py             # Streamlit entry point
+│   └── utils.py            # Data processing & plotting logic
+├── data/                   # Cleaned CSV files (Git ignored)
+├── notebooks/              # Jupyter Notebooks (Task 1 & 2)
+├── scripts/                # Python scripts for data fetching
+├── .github/workflows/      # CI/CD (GitHub Actions)
 ├── requirements.txt        # Project dependencies
-└── README.md               # Project documentation
-````
+└── README.md
 
 ---
 
@@ -138,6 +139,7 @@ On every push to the `main` branch, the workflow:
 ## 🎯 Project Goal
 
 Use historical climate evidence to strengthen **Ethiopia’s diplomatic case for hosting COP32 (2027)**.
+
 
 ---
 
